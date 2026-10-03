@@ -1,0 +1,18 @@
+# Cloudflare Pages reads this file. The page and its data must never be served stale; images and maps can be kept for a while.
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+/
+  Cache-Control: no-cache
+/index.html
+  Cache-Control: no-cache
+/data.json
+  Cache-Control: no-cache
+/manifest.webmanifest
+  Cache-Control: public, max-age=3600
+/terms.html
+  Cache-Control: public, max-age=3600
+/maps/*
+  Cache-Control: public, max-age=3600
+/*.png
+  Cache-Control: public, max-age=86400

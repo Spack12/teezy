@@ -1,0 +1,166 @@
+{
+ "Ancil Hoffman Golf Course": {
+  "file": "ancil-hoffman-golf-course.json",
+  "holes": 18
+ },
+ "Antelope Greens Golf Course": {
+  "file": "antelope-greens-golf-course.json",
+  "holes": 18
+ },
+ "Apple Mountain Golf Resort": {
+  "file": "apple-mountain-golf-resort.json",
+  "holes": 18
+ },
+ "Bartley Cavanaugh Golf Course": {
+  "file": "bartley-cavanaugh-golf-course.json",
+  "holes": 18
+ },
+ "Bing Maloney - Express 9": {
+  "file": "bing-maloney-express-9.json",
+  "holes": 9
+ },
+ "Bing Maloney Golf Course": {
+  "file": "bing-maloney-golf-course.json",
+  "holes": 18
+ },
+ "Campus Commons Golf Course": {
+  "file": "campus-commons-golf-course.json",
+  "holes": 9
+ },
+ "Cherry Island Golf Course": {
+  "file": "cherry-island-golf-course.json",
+  "holes": 18
+ },
+ "Cordova Golf Course": {
+  "file": "cordova-golf-course.json",
+  "holes": 18
+ },
+ "Davis Golf Course": {
+  "file": "davis-golf-course.json",
+  "holes": 18
+ },
+ "Diamond Oaks Golf Course": {
+  "file": "diamond-oaks-golf-course.json",
+  "holes": 18
+ },
+ "Dry Creek Ranch Golf Course": {
+  "file": "dry-creek-ranch-golf-course.json",
+  "holes": 18
+ },
+ "Empire Ranch Golf Club": {
+  "file": "empire-ranch-golf-club.json",
+  "holes": 18
+ },
+ "Haggin Oaks - Alister MacKenzie": {
+  "file": "haggin-oaks-alister-mackenzie.json",
+  "holes": 18
+ },
+ "Haggin Oaks - Arcade Creek": {
+  "file": "haggin-oaks-arcade-creek.json",
+  "holes": 18
+ },
+ "Indian Creek Golf Course": {
+  "file": "indian-creek-golf-course.json",
+  "holes": 9
+ },
+ "Mather Golf Course": {
+  "file": "mather-golf-course.json",
+  "holes": 18
+ },
+ "Morgan Creek Golf Club": {
+  "file": "morgan-creek-golf-club.json",
+  "holes": 18
+ },
+ "Paradise Valley Golf Course": {
+  "file": "paradise-valley-golf-course.json",
+  "holes": 18
+ },
+ "Rancho Solano Golf Course": {
+  "file": "rancho-solano-golf-course.json",
+  "holes": 18
+ },
+ "Sierra Pines Golf Course": {
+  "file": "sierra-pines-golf-course.json",
+  "holes": 9
+ },
+ "Teal Bend Golf Club": {
+  "file": "teal-bend-golf-club.json",
+  "holes": 18
+ },
+ "The Ridge Golf Course": {
+  "file": "the-ridge-golf-course.json",
+  "holes": 18
+ },
+ "Timber Creek Golf Course": {
+  "file": "timber-creek-golf-course.json",
+  "holes": 18
+ },
+ "Turkey Creek Golf Club": {
+  "file": "turkey-creek-golf-club.json",
+  "holes": 18
+ },
+ "Whitney Oaks Golf Club": {
+  "file": "whitney-oaks-golf-club.json",
+  "holes": 18
+ },
+ "Wildhorse Golf Club": {
+  "file": "wildhorse-golf-club.json",
+  "holes": 18
+ },
+ "William Land Golf Course": {
+  "file": "william-land-golf-course.json",
+  "holes": 9
+ },
+ "Woodcreek Golf Club": {
+  "file": "woodcreek-golf-club.json",
+  "holes": 18
+ },
+ "WildHawk Golf Club": {
+  "file": "wildhawk-golf-club.json",
+  "holes": 18
+ },
+ "9 at the Hill": {
+  "file": "9-at-the-hill.json",
+  "holes": 9
+ },
+ "Red Hawk Golf Resort - Lakes Course": {
+  "file": "red-hawk-golf-resort-lakes-course.json",
+  "holes": 18
+ },
+ "Old Greenwood Golf Course": {
+  "file": "old-greenwood-golf-course.json",
+  "holes": 18
+ },
+ "Gray's Crossing Golf Course": {
+  "file": "gray-s-crossing-golf-course.json",
+  "holes": 18
+ },
+ "Incline Village - Championship Course": {
+  "file": "incline-village-championship-course.json",
+  "holes": 18
+ },
+ "Silver Oak Golf Course": {
+  "file": "silver-oak-golf-course.json",
+  "holes": 18
+ },
+ "Tahoe Donner Golf Course": {
+  "file": "tahoe-donner-golf-course.json",
+  "holes": 18
+ },
+ "Incline Village - Mountain Course": {
+  "file": "incline-village-mountain-course.json",
+  "holes": 18
+ },
+ "Sierra Sage Golf Course": {
+  "file": "sierra-sage-golf-course.json",
+  "holes": 18
+ },
+ "Tahoe Paradise Golf Course": {
+  "file": "tahoe-paradise-golf-course.json",
+  "holes": 18
+ },
+ "Edgewood Tahoe Golf Course": {
+  "file": "edgewood-tahoe-golf-course.json",
+  "holes": 18
+ }
+}

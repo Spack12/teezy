@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title>Golf Public · Terms &amp; Privacy</title>
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png?v=4">
+<style>
+  :root{--ink:#16261B;--ink-2:#56615B;--line:#DCE2D6;--bg:#F6F7F3;--green:#1F4D2B}
+  @media (prefers-color-scheme: dark){:root{--ink:#E8EEE6;--ink-2:#A3AFA6;--line:#2C3A2F;--bg:#0F1712;--green:#7CC98A}}
+  body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 -apple-system,"Segoe UI",Helvetica,Arial,sans-serif}
+  main{max-width:720px;margin:0 auto;padding:calc(24px + env(safe-area-inset-top,0px)) 20px 48px}
+  h1{font-size:28px;margin:0 0 4px} h2{font-size:19px;margin:28px 0 6px} p,li{color:var(--ink)} small,.meta{color:var(--ink-2);font-size:14px}
+  a{color:var(--green)} ul{padding-left:20px} li{margin:4px 0}
+  .back{display:inline-block;margin-bottom:18px;font-weight:600;text-decoration:none}
+  .logo{display:inline-block;background:#fff;border-radius:16px;padding:10px 16px;margin:0 0 14px;box-shadow:0 1px 6px rgba(0,0,0,.12)} .logo img{display:block;width:190px;height:auto}
+  hr{border:0;border-top:1px solid var(--line);margin:28px 0}
+</style>
+<link rel="canonical" href="https://golfpublic.app/terms">
+</head>
+<body>
+<main>
+<a class="back" href="./">‹ Back to Golf Public</a>
+<div class="logo"><img src="logo-full.png?v=4" alt="Golf Public" width="220" height="146"></div>
+<h1>Terms &amp; Privacy</h1>
+<p class="meta">Last updated October 1, 2026</p>
+
+<h2>What Golf Public is</h2>
+<p>Golf Public shows public golf tee times around Sacramento in one place and sends you to each course's own booking page to book. Golf Public does not sell tee times, take payments, or book on your behalf.</p>
+
+<h2>Not affiliated with the courses or booking sites</h2>
+<p>Golf Public is independent. It is not affiliated with, endorsed by, or sponsored by any golf course, GolfNow, TeeItUp, Chronogolf, foreUP, or any other booking service. Course names and trademarks belong to their owners and are used only to identify the courses.</p>
+
+<h2>Prices and availability can change</h2>
+<ul>
+  <li>Tee times, prices, fees, weather and "busyness" come from outside sources and are checked every so often, not live. A time can be booked by someone else, or a price can change, before you get to it.</li>
+  <li>The price and terms on the course's booking page are the ones that count. Always check them before you book.</li>
+  <li>Labels like "deal," "quiet," "packed" and "holes of light" are Golf Public's estimates to help you choose, not guarantees.</li>
+</ul>
+
+<h2>Using Golf Public</h2>
+<ul>
+  <li>Golf Public is free for personal use.</li>
+  <li>Please don't copy, scrape, resell or republish Golf Public's data, design or code, and don't use automated tools to collect it.</li>
+  <li>Golf Public is provided "as is," without warranties of any kind. To the fullest extent the law allows, Golf Public isn't liable for missed tee times, price differences, booking problems, or any losses from using it.</li>
+  <li>These terms may change; the date above shows the latest version.</li>
+</ul>
+
+<h2>Privacy</h2>
+<p><b>No accounts, no ads, and no tracking of you.</b> Golf Public doesn't ask for your email or phone number, doesn't use advertising, and doesn't use third-party analytics or tracking cookies. It does keep simple anonymous counts, described below.</p>
+<ul>
+  <li><b>On your device:</b> your favorites, hidden courses, chosen design, the name you type into plans, and your list of plans are saved in your browser on your device only. Clearing your browser data removes them.</li>
+  <li><b>Plan a round:</b> when you create or reply to a plan, the plan's name, the names people type, and the days, courses and tee times they choose are stored so everyone with the link can see them. Anyone who has the link can view that plan, so share it only with your group. Plans are deleted automatically 30 days after the last change.</li>
+  <li><b>Anonymous counts:</b> to learn which parts of Golf Public are useful, it counts visits, new devices, and taps on "Book" buttons (only which course and which booking website, never who tapped). Your device keeps two small flags so a return visit isn't counted twice. The counts hold no names, IDs, or IP addresses and are stored with Cloudflare. If your browser sends a "Do Not Track" signal, nothing is counted.</li>
+  <li><b>Services the page loads:</b> map images come from OpenStreetMap and fonts from Google Fonts, which receive standard technical information (like your IP address) when your browser requests them. Plans are stored with Cloudflare.</li>
+  <li><b>Links out:</b> when you tap a tee time, you go to the course's or booking service's own site, and their privacy policy applies there.</li>
+  <li>Golf Public is meant for adults and doesn't knowingly collect information from children.</li>
+</ul>
+<p id="contact" class="meta"></p>
+
+<hr>
+<p class="meta">© 2026 Golf Public. All rights reserved.</p>
+</main>
+<script>
+  // contact line is filled in from the site's settings once an email has been set
+  function showContact(e){ if(!e) return; const p=document.getElementById('contact'); p.textContent='Questions or requests (including deleting a plan early): ';
+    const a=document.createElement('a'); a.href='mailto:'+e; a.textContent=e; p.appendChild(a); }
+  fetch('data.json',{cache:'no-cache'}).then(r=>r.ok?r.json():null).then(d=>d&&d.contact_email||null).catch(()=>null)
+    .then(e=>e||fetch('./').then(r=>r.text()).then(x=>{ const m=x.match(/"contact_email":"([^"]+)"/); return m&&m[1]; }).catch(()=>null)).then(showContact);
+</script>
+</body>
+</html>

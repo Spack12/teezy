@@ -1,0 +1,3 @@
+{
+ "_about": "Photo-style course maps (an image plus the position of each hole-number badge in it). Shown instead of the drawn map; delete a course's entry to fall back to the drawn map. 'north' is the direction north points in the picture, in degrees clockwise from straight up (180 = down). 'credit' is shown under the map when set. 'alias' lists extra tap points that select the same hole (used when a picture repeats a number)."
+}
